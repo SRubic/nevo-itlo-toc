@@ -1,0 +1,12 @@
+{
+  "name": "nevo-itlo-toc",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "node ./scripts/scrape.mjs"
+  },
+  "dependencies": {
+    "jsdom": "^25.0.0",
+    "node-fetch": "^3.3.2"
+  }
+}
